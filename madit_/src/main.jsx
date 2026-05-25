@@ -16,8 +16,15 @@ const root = createRoot(document.getElementById('root'))
 //   </div>)
 
 
+// this is impereative way of rendering element to the dom
 const elementfortest = document.createElement('h1');
 elementfortest.textContent = 'Hello, world! This is a test element.';
 elementfortest.className = 'header'
 
-document.getElementById('root').appendChild(elementfortest);
+document.getElementById('root').appendChild(elementfortest); 
+
+root.render(
+  <main>
+    <MainComponent />
+  </main>
+)
