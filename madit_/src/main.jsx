@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import { Day2 } from './mainday2.jsx'
 import { ExcitedReasons } from './mainday2.jsx'
+import { Header} from './mainday2.jsx'
 
 
 function  MainComponent() {
@@ -27,7 +28,8 @@ document.getElementById('root').appendChild(elementfortest);
 
 root.render(
   <main>
-    <MainComponent />,
+    <MainComponent />
+    <Header/>
     <Day2 />
     <ExcitedReasons />
   </main>

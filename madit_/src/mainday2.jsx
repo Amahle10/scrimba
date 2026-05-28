@@ -48,9 +48,8 @@ export function ExcitedReasons () {
     );
 }
 
-function FooterWithHeaderAndBody () {}
-
-return (
+function FooterWithHeaderAndBody () {
+    return (
     <div>
         <header>Header</header>
         <br>
@@ -62,3 +61,24 @@ return (
     </div>
 
 )
+
+}
+
+
+///fragments
+
+export function Header () {
+
+    return (
+        <header>//</header>
+    );
+}
+
+
+export function Fragments () {
+    return (
+        <Fragment>
+
+        </Fragment>
+    )
+}
