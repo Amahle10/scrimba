@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import { Day2 } from './mainday2.jsx'
+import { ExcitedReasons } from './mainday2.jsx'
 
 
 function  MainComponent() {
@@ -28,5 +29,6 @@ root.render(
   <main>
     <MainComponent />,
     <Day2 />
+    <ExcitedReasons />
   </main>
 )

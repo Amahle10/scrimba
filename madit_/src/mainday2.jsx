@@ -37,3 +37,13 @@ export function Day2 (){
             </main>
     )
 }
+
+export function ExcitedReasons () {
+
+    return (
+        <ol>
+            <li>Im excited to be learning react because it exposes dom manipulation </li>
+            <li>it is really cool, you get to work with UI's and stuff</li>
+        </ol>
+    );
+}
