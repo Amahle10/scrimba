@@ -70,13 +70,16 @@ function FooterWithHeaderAndBody () {
 export function Header () {
 
     return (
-        <header>
+        <header className='header'>
+            
             <img src='/src/assets/react.svg' alt='react logo'  />
-            <ul className='nav-list'><li>pricing
-                </li>
-                <li>about</li>
-                <li>contact</li>
-            </ul>
+            <nav>
+                <ul className='nav-list'><li>pricing
+                    </li>
+                    <li>about</li>
+                    <li>contact</li>
+                </ul>
+            </nav>
         </header>
     );
 }
