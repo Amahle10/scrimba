@@ -52,7 +52,7 @@ function FooterWithHeaderAndBody () {}
 
 return (
     <div>
-        <h1>Header</h1>
+        <header>Header</header>
         <br>
         </br>
         <p>This is the body of the page</p>
