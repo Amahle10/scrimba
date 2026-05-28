@@ -70,7 +70,15 @@ function FooterWithHeaderAndBody () {
 export function Header () {
 
     return (
-        <header>//</header>
+        <header>
+
+
+            <ul><li>pricing
+                </li>
+                <li>about</li>
+                <li>contact</li>
+            </ul>
+        </header>
     );
 }
 
