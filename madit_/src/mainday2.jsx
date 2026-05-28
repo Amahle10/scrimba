@@ -47,3 +47,18 @@ export function ExcitedReasons () {
         </ol>
     );
 }
+
+function FooterWithHeaderAndBody () {}
+
+return (
+    <div>
+        <h1>Header</h1>
+        <br>
+        </br>
+        <p>This is the body of the page</p>
+        <br>
+        </br>
+        <footer>copyrightlogo 20xx jake leak</footer>
+    </div>
+
+)
