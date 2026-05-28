@@ -10,3 +10,9 @@ h1 {
   color: #333;
   color: aqua;
 }
+
+img {
+  width: 200px;
+  height: auto;
+  margin-top: 20px;
+}

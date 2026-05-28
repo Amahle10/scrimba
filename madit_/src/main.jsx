@@ -2,6 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
+import { Day2 } from './mainday2.jsx'
 
 
 function  MainComponent() {
@@ -25,6 +26,7 @@ document.getElementById('root').appendChild(elementfortest);
 
 root.render(
   <main>
-    <MainComponent />
+    <MainComponent />,
+    <Day2 />
   </main>
 )
