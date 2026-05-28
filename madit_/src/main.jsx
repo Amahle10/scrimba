@@ -4,8 +4,9 @@ import './index.css'
 import App from './App.jsx'
 import { Day2 } from './mainday2.jsx'
 import { ExcitedReasons } from './mainday2.jsx'
-import { Header} from './mainday2.jsx'
+// import { Header} from './mainday2.jsx'
 import { Footer } from './mainday2.jsx'
+import {Header} from './Header.jsx'
 
 function  MainComponent() {
   return (<h1>Hello, world!</h1>);
