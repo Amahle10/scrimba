@@ -71,8 +71,8 @@ export function Header () {
 
     return (
         <header>
-            <img src='/src/assets/react.svg' alt='react logo' />
-            <ul><li>pricing
+            <img src='/src/assets/react.svg' alt='react logo'  />
+            <ul className='nav-list'><li>pricing
                 </li>
                 <li>about</li>
                 <li>contact</li>
