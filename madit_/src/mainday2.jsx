@@ -71,8 +71,7 @@ export function Header () {
 
     return (
         <header>
-
-
+            <img src='/src/assets/react.svg' alt='react logo' />
             <ul><li>pricing
                 </li>
                 <li>about</li>
